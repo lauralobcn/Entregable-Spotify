@@ -1,0 +1,347 @@
+/* -------- REINICIO MARGENES------------ */
+* {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* -------- HEADER - NAV ------------ */
+
+.header {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navLi {
+    display: inline-block;
+    padding: 28px 17px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navLi a:hover {
+    cursor: pointer;
+}
+
+.logotipo {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.logotipo img {
+    padding-right: 15px;
+}
+
+.logotipo :hover {
+    cursor: pointer;
+}
+
+/* --------- CABECERA----------- */
+br {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    background: rgb(80, 155, 245) url(https://campaigns-test.scdn.co/images/premium_dancer.png) right bottom / 350px no-repeat;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 60px 15px;
+
+}
+
+.titulo a {
+    font-size: 12px;
+    width: 100%;
+    color: white;
+}
+
+.subtitulo {
+    font-size: 30px;
+}
+
+.titulo .terminos-y-condiciones {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0.5em 0 1em;
+    width: 100%;
+    height: auto;
+}
+
+.boton1 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(29, 185, 84);
+    color: rgb(255, 255, 255);
+    border-radius: 500px;
+    padding: 17px 48px;
+    width: 15%;
+}
+
+.boton1 a:hover {
+    cursor: pointer;
+}
+
+.planes .terms {
+    color: rgb(145, 148, 150);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0.5em 0 1em;
+    width: 100%;
+}
+
+a {
+    color: rgb(145, 148, 150);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0.5em 0 1em;
+}
+
+a a:hover {
+    cursor: pointer;
+}
+
+
+/* --------- MAIN----------- */
+/* ---------Seccion 1----------- */
+
+.main-content h1 {
+    font-size: 60px;
+}
+
+.apartado1 {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 75px 15px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding-left: 150px;
+    padding-bottom: 150px;
+}
+
+.titulosApartados1 {
+    font-size: 48px;
+    display: inline;
+    display: flex;
+    padding-left: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.porquePremium {
+    display: flex;
+    align-items: space-around;
+}
+
+.cuadroventaja {
+    font-weight: 400;
+    font-size: 16px;
+    color: #222326;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 33.3px;
+}
+
+.circulos {
+    display: flex;
+    margin-right: 10px;
+    width: 150px;
+    background-position: center top;
+}
+
+/* ---------Seccion 2----------- */
+.titulosApartados2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+
+.subtituloapartado2 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.apartado2 {
+    padding-top: 75px 15px;
+}
+
+.tipostarifa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.gratis {
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 900;
+    background-color: rgb(46, 119, 208);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+
+.tituloTarifa {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 5px;
+}
+
+.rectanguloTarifa {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 33.3px;
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    border-radius: 10px 10px 0px 0px;
+    flex-flow: column nowrap;
+}
+
+.detalle {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 2px;
+}
+
+.infoTarifa {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    margin-top: 0px;
+    list-style: none;
+}
+
+.infoTarifa li:before {
+    content: "✓";
+}
+
+.gratis {
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 900;
+    background-color: rgb(46, 119, 208);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+
+.button2 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(29, 185, 84);
+    color: rgb(255, 255, 255);
+    border-radius: 500px;
+    padding: 17px 48px;
+    width: auto;
+}
+
+.button2 a:hover {
+    cursor: pointer;
+}
+
+
+/* -----------FOOTER------------- */
+
+.footer {
+    background-color: black;
+    padding: 30px 0 20px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #919496;
+    width: 100%;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.navfooter {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.liFooter {
+    padding: 1em;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.liFooter a:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pais {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.bandera {
+    width: 20px;
+    height: 10px;
+}
